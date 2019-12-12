@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en" class="mdc-typography">
+<head>
+  <meta charset="UTF-8">
+  <title>MDC Web Drawer Example</title>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1"><link rel='stylesheet' href='https://unpkg.com/material-components-web@latest/dist/material-components-web.css'>
+<link rel='stylesheet' href='https://fonts.googleapis.com/icon?family=Material+Icons'><link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!-- Top App Bar -->
+<header class="mdc-top-app-bar">
+  <div class="mdc-top-app-bar__row" >
+    <section class="mdc-top-app-bar__section mdc-top-app-bar__section--align-start">
+      <button class="mdc-top-app-bar__navigation-icon mdc-icon-button material-icons" href="#">menu</button> 
+      <span> <img src="prmLogo.png" style="width: 160px; height: 40px;"></span>
+    </section>
+  </div>
+</header>
+
+<div class="app-drawer-layout mdc-top-app-bar--fixed-adjust">
+  <!-- Drawer -->
+  <aside class="mdc-drawer mdc-drawer--dismissible demo-drawer">
+    <nav class="mdc-drawer__drawer">
+      <nav class="mdc-drawer__content">
+        <div id="drawer-icons" class="mdc-list">
+          <a class="mdc-list-item mdc-list-item--selected demo-drawer-list-item" href="#">
+            <i class="material-icons mdc-list-item__graphic" aria-hidden="true">person</i> Account
+          </a>
+          <a class="mdc-list-item demo-drawer-list-item" href="#">
+            <i class="material-icons mdc-list-item__graphic" aria-hidden="true">add_box</i> Create Requirements
+          </a>
+          <a class="mdc-list-item demo-drawer-list-item" href="#">
+            <i class="material-icons mdc-list-item__graphic" aria-hidden="true">add_box</i> Create Logistics
+          </a>
+          <a class="mdc-list-item demo-drawer-list-item" href="#">
+            <i class="material-icons mdc-list-item__graphic" aria-hidden="true">description</i> Requirements
+          </a>
+          <a class="mdc-list-item demo-drawer-list-item" href="#">
+            <i class="material-icons mdc-list-item__graphic" aria-hidden="true">description</i> Logistics
+          </a>
+       
+          <a class="mdc-list-item demo-drawer-list-item" href="#">
+            <i class="material-icons mdc-list-item__graphic" aria-hidden="true">email</i> Email
+          </a>
+          <a class="mdc-list-item demo-drawer-list-item" href="#">
+            <i class="material-icons mdc-list-item__graphic" aria-hidden="true">delete</i> Delete
+          </a>
+          <a class="mdc-list-item demo-drawer-list-item" href="#">
+            <i class="material-icons mdc-list-item__graphic" aria-hidden="true">report</i> Report
+          </a>
+        </div>
+      </nav>
+    </nav>
+  </aside>
+</div>
+
+<footer class="footer">
+  <div class="mdl-mini-footer" style="text-align:center">
+    <div class="mdl-logo">
+      Copyright Information
+    </div>
+    <div class="mdl-mini-footer__link-list">
+      <span><a href="#"> Help </a></span> &nbsp; &nbsp;
+      <span><a href="#"> Privacy and Terms </a></span> &nbsp; &nbsp;
+      <span><a href="#"> User Agreement </a></span> &nbsp; &nbsp;
+    </div>
+  </div>
+
+</footer>
+<!-- partial -->
+  <script src='https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
